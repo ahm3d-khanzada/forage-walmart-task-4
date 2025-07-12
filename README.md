@@ -56,3 +56,43 @@ forage-walmart-task-4/
 ```bash
 git clone https://github.com/yourusername/forage-walmart-task-4.git
 cd forage-walmart-task-4
+```
+
+### 🔹 2. Install Dependencies
+```bash
+pip install pandas
+```
+### 🔹 3. Run the Script
+```bash
+python process_shipments.py
+```
+This will generate a shipment_database.db file containing the shipments table with all records inserted.
+
+## 📝 Notes
+The database file shipment_database.db will be overwritten if the script is re-run.
+
+All insert operations are wrapped inside transactions using connection.commit().
+
+## ✅ Sample Output
+After running the script:
+
+✅ Merged records from shipping_data_1.csv and shipping_data_2.csv
+✅ Counted quantities per shipment
+✅ All data successfully inserted into the shipments table in SQLite
+
+## 📃 License
+This project is licensed under the MIT License.
+
+## 🙋‍♂️ Author
+Ahmed Khan
+📫 Contact via GitHub for queries or improvements.
+
+---
+
+Let me know if you’d like me to generate:
+
+- The `requirements.txt` file
+- A sample `.db` viewer setup
+- Export to `.csv` instead of `.db`  
+Happy to help further!
+
